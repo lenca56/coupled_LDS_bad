@@ -1,0 +1,57 @@
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # core Conda packages that must be resolved on Linux
+  - python=3.10
+  - pip
+  - numpy=1.23
+  - scipy=1.9
+  - pandas=1.5
+  - scikit-learn=1.1
+  - jupyterlab
+  - pip:
+    # all remaining packages installed via pip
+    - argon2-cffi==21.3.0
+    - asttokens==2.0.5
+    - backcall==0.2.0
+    - bzip2 # system-provided; pip fallback if needed
+    - certifi==2022.9.24
+    - cffi==1.15.1
+    - comm==0.2.2
+    - decorator==5.1.1
+    - defusedxml==0.7.1
+    - entrypoints==0.4
+    - executing==0.8.3
+    - importlib-resources==6.4.0
+    - ipython-genutils==0.2.0
+    - jsonschema-specifications==2023.12.1
+    - jupyter-client==7.3.5
+    - jupyter-core==4.11.1
+    - mistune==2.0.4
+    - nbconvert==7.2.3
+    - nbclient==0.7.0
+    - packaging==21.3
+    - pandoc==2.19.2
+    - parso==0.8.3
+    - pexpect==4.8.0
+    - pickleshare==0.7.5
+    - prompt-toolkit==3.0.20
+    - pure_eval==0.2.2
+    - pycparser==2.21
+    - python-dateutil==2.8.2
+    - python-fastjsonschema==2.16.2
+    - pyzmq==23.2.0
+    - qdldl==0.1.5.post3
+    - qtconsole==5.4.0
+    - requests==2.28.1
+    - ruamel-yaml==0.17.21
+    - scs==3.2.2
+    - seaborn==0.13.2
+    - sysidentpy==0.6.0
+    - tf2ss==1.2.0
+    - threadpoolctl==3.1.0
+    - tornado==6.2
+    - tqdm==4.64.1
+    - widgetsnbextension==4.0.3
